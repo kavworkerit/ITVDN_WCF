@@ -30,10 +30,8 @@ namespace HelloWCF
             // Начало ожидания прихода сообщений.
             host.Open();
 
-
             Console.WriteLine("Приложение готово к приему сообщений.");
             Console.ReadKey();
-
 
             // Завершение ожидания прихода сообщений.
             host.Close();
